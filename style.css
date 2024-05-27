@@ -1,0 +1,382 @@
+/*
+Theme Name: oceanwp-child
+Template: oceanwp
+Description: oceanwp
+Version: 0.1.0.1698419629
+Updated: 2023-10-27 15:13:49
+
+*/
+
+
+#footer-widgets {
+    display: none;
+    background-color: #ffffff;
+    padding: 0px 0;
+    margin: 0;
+}
+
+#footer-bottom {
+    background-color: #ffffff;
+    padding: 15px 0;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+}
+
+#footer-bottom #footer-bottom-menu a {
+    color: #000;
+}
+
+#footer-bottom-inner {
+
+display: flex;
+justify-content: center;
+
+}
+
+#footer-bottom #footer-bottom-menu ul {
+    margin: 0;
+    list-style: none;
+
+}
+
+#footer-bottom #footer-bottom-menu {
+    float: right;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#footer-bottom #footer-bottom-menu li {
+    float: left;
+}
+
+body {
+
+    justify-content: center !important;
+}
+
+
+.custom-logo-link img {
+    padding-left: 20px;
+}
+
+  .quantites {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 40px ;
+      border-bottom: 1px solid white ;
+      margin-bottom: 40px;
+  }
+
+  .compteur {
+      max-width: 40px;
+      padding:20px 5px;
+      border:0
+  }
+
+  .infos {
+      display: flex;
+  }
+  .info1 {
+      width: 45%;
+      margin-right:3%;
+      padding-right:3%;
+      border-right:1px solid white ;
+  }
+
+  .info2 {
+      width: 45%;
+  }
+
+  .infos h2 {
+      font-size: 25px;
+      font-family: 'Syne';
+      color: white;
+      font-weight: 600;
+  }
+
+  .zonecommander {
+      padding:40px 0;
+      text-align: center;
+  }
+
+  .form4 {
+      display: block;
+      font-size: 14px;
+      color: white;
+      padding-top: 10px;
+  }
+
+  .form4input {
+      width:80%;
+      padding:10px;
+      border:0;
+      border-radius: 5px;
+  }
+
+  .commanderbtn {
+      background-color: rgb(206, 163, 201);
+      color: white;
+      border-radius: 5px;
+      padding: 5px 30px;
+      border:0;
+      font-size: 18px;
+  }
+
+
+#footer-bottom #footer-bottom-menu {
+    text-align: center;
+}
+
+
+.site-footer {
+    position: relative;
+    text-align:center;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:13px;
+}
+
+form input[type=text], form input[type=password], form input[type=email], form input[type=url], form input[type=date], form input[type=month], form input[type=time], form input[type=datetime], form input[type=datetime-local], form input[type=week], form input[type=number], form input[type=search], form input[type=tel], form input[type=color], form select, form textarea {
+    display: inline-block;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0);
+    color: #333;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: white;
+}
+
+input[type=button], input[type=reset], input[type=submit], button[type=submit], .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    display: inline-block;
+    font-family: inherit;
+    background-color: #E0B9B4;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    Width: 198px;
+    Height: 55px;
+    border-radius: 5px;
+    
+
+}
+
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 0px;
+    position: relative;
+    display: none;
+}
+
+#envoyer {
+
+    display: flex;
+    justify-content: center;
+}
+
+.police { 
+
+    font-family: Syne;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    color: #000;
+}
+
+.elementor-28 .elementor-element.elementor-element-d8deead.e-con {
+    --align-self: flex-start;
+    --order: 99999 /* order end hack;; */;
+    --flex-grow: 1;
+    --flex-shrink: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.police2 {
+
+    font-family: Syne;
+    font-weight: 700;
+    font-size : 30px;
+    line-height: 36px;
+    color: #ffffff;
+
+}
+
+.police3 { 
+
+    font-family: Syne;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.position {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire {
+
+    justify-content: flex-start;
+    display: grid;
+}
+
+.formulaire2 {
+
+    justify-content: flex-end;
+    display: grid;
+}
+
+.verticale {
+
+    border-left: 2px solid rgb(255, 255, 255); 
+    height: 300px; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.commande {
+
+    display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+}
+
+.menu-item-78 {
+
+background-color: #dc9f96;
+
+}
+
+a[href="http://planty.local/commander/"].menu-link {
+
+    color: #fff !important;
+
+}
+
+.menu-class {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu-class li:nth-child(1) {
+    order: 2;
+}
+
+.menu-class li:nth-child(2) {
+    order: 1;
+}
+
+.menu-class li:nth-child(3) {
+    order: 3;
+}
+
+.search-toggle-li {
+
+display: none !important;
+
+}
+
+#menu-header {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-header li:nth-child(1) {
+    order: 1 !important;
+}
+
+#menu-header li:nth-child(2) {
+    order: 3 !important;
+}
+
+#menu-header li:nth-child(3) {
+    order: 2 !important;
+}
+
+#menu-header li:nth-child(4) {
+    order: 0 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .commande {
+
+        display: block;
+    }
+
+    .verticale {
+
+        display: none;
+    }
+
+    .formulaire2 {
+
+        justify-content: flex-end;
+        display: block;
+    }
+
+    .formulaire {
+
+        justify-content: flex-start;
+        display: block;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-e31c39a:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-e31c39a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-position: 0px 420px !important;
+    }
+  }
+
+
+
+
+
